@@ -48,11 +48,11 @@ namespace seleniumPOC
 
         var by = By.XPath("//*[@id=\"username\"]");
         var element = driver.FindElement(by);
-        element.SendKeys("cruzeirodosul.josejunior");
+        element.SendKeys("xxxxxxxx");
 
         by = By.XPath("//*[@id=\"password\"]");
         element = driver.FindElement(by);
-        element.SendKeys("Julia100413!!");
+        element.SendKeys("xxxxxxx");
 
         by = By.XPath("//*[@id=\"__next\"]/div/div/div[3]/div/form/div[4]/button");
         element = driver.FindElement(by);
